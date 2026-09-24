@@ -10,8 +10,12 @@ const learners = [
   {
     name: "小李",
     weeklyHours: 25
-  }
-];
+  },
+  {
+    name: "小张",
+    weeklyHours: 12
+  },
+]
 
 if (require.main === module) {
   const activeLearners = [];
